@@ -1,18 +1,67 @@
 .head{
     background: gray;
+    border: 3px solid gray;
+    font-family: 'Noto Serif', serif;
     color: honeydew;
     text-align: center;
     margin: 10px 20px 10px 20px;
 }
 .preface{
     background: black;
-    color: #FFFACD;
+    border: 50px solid black;
+    font-family: 'Recursive', sans-serif;
+    color: yellow;
     text-align: center;
-    margin: 20px 50px 20px 50px;
+    margin: 20px 50px 0px 50px;
 }
 .last-text{
     background: black;
-    color: #FFFACD;
+    border: 50px solid black;
+    font-family: 'Recursive', sans-serif;
+    color: yellow;
     text-align: center;
-    margin: 20px 20px 20px 20px;
+    margin: 0px 50px 50px 50px;
+}
+
+.head2{
+    background: #4b0082;
+    border: 3px solid #4b0082;
+    font-family: 'Noto Serif', serif;
+    color: #FFCC00;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #FFFFCC;
+    border-radius: 4px;
+    box-shadow: 0, 5px, 15px, rgba(0, 0, 0, 5);
+    display: flex;
+}
+.box .imageBx1{
+    width: 1000px;
+    flex: 0,0,1000px;
+}
+.box .imageBx1 img{
+    max-width: 200%;
+}
+.box .story1{
+    padding-left: 150px;
+}
+.box .story1 h2{
+    margin: 0;
+    padding-left: 0;
+    color: #4b0082;
+}
+.box .story1 h4{
+    margin: 0;
+    padding: 10px, 0, 0;
+    color: #4b0082;
+    text-align: justify;
 }
