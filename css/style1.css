@@ -55,14 +55,16 @@
     padding-left: 150px;
 }
 .box .story1 h2{
+    font-family: 'Noto Serif', serif;
     margin: 0;
     padding-left: 0;
     color: #4b0082;
 }
 .box .story1 h4{
     margin: 0;
+    margin-top: 20px;
     padding: 10px, 0, 0;
-    color: #4b0082;
+    color: #CC66CC;
     text-align: justify;
 }
 
@@ -88,23 +90,25 @@
     box-shadow: 0, 5px, 15px, rgba(0, 0, 0, 5);
     display: flex;
 }
-.box .imageBx2{
+.box2, .imageBx2{
     width: 1000px;
     flex: 0,0,1000px;
 }
-.box .imageBx2 img{
-    max-width: 100%;
+.box2, .imageBx2 img{
+    max-width: 200%;
 }
-.box .story2{
+.box2 .story2{
     padding-left: 150px;
 }
-.box .story2 h2{
+.box2 .story2 h2{
+    font-family: 'Noto Serif', serif;
     margin: 0;
     padding-left: 0;
-    color: whitesmoke;
+    color: black;
 }
-.box .story2 h4{
+.box2 .story2 h4{
     margin: 0;
+    margin-top: 20px;
     padding: 10px, 0, 0;
     color: whitesmoke;
     text-align: justify;
