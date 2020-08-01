@@ -67,6 +67,19 @@
     color: #CC66CC;
     text-align: justify;
 }
+.box .story1 a{
+    margin: 0;
+    margin-top: 50px;
+    padding: 10px, 0, 0;
+    color: #FF9999;
+    text-align: justify;
+}
+.box .story1 p{
+    margin: 0;
+    padding: 10px, 0, 0;
+    color: #FF9999;
+    text-align: justify;
+}
 
 /* 3nd style */
 .head3{
@@ -111,6 +124,19 @@
     margin-top: 20px;
     padding: 10px, 0, 0;
     color: whitesmoke;
+    text-align: justify;
+}
+.box .story1 a{
+    margin: 0;
+    margin-top: 50px;
+    padding: 10px, 0, 0;
+    color: gray;
+    text-align: justify;
+}
+.box .story1 p{
+    margin: 0;
+    padding: 10px, 0, 0;
+    color: gray;
     text-align: justify;
 }
 
